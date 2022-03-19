@@ -1,7 +1,7 @@
 const Menu = document.querySelector(".hamburger");
 const menu = document.querySelector(".menu-navegacion");
-console.log(menu);
-console.log(Menu);
+//console.log(menu);
+//console.log(Menu);
 Menu.addEventListener('click', ()=>{
     menu.classList.toggle ("spread")
 })
