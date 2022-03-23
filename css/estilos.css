@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font: oblique bold 100% cursive;
 }
 
 .contenedor{
@@ -27,6 +27,10 @@ header{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+}
+
+p{
+    align-items: center;
 }
 
 .head{
@@ -66,12 +70,12 @@ header{
     transition: transform .3s ease-in-out;
     transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-
 }
 
 .spread{
     transform: translate(0);
 }
+
 .menu-navegacion a{
     color: #fff;
     text-decoration: none;
@@ -81,6 +85,7 @@ header{
     font-size: 60px;
     margin-bottom: 15px;
 }
+
 .copy{
     font-weight: 300;
     font-size: 25px;
@@ -95,25 +100,31 @@ header{
     margin-bottom: 40px;
     font-size: 40px;
 }
+
 .contenedor-servicio{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .contenedor-servicio img{
     width: 20%;
 }
+
 .checklist-servicio{
     width: 80%;
 }
+
 .service{
     margin-bottom: 20px;
 }
+
 .n-service{
     margin-bottom: 7px;
     color: #9f8ad0;
 }
+
 .number{
     display: inline-block;
     background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
@@ -130,11 +141,13 @@ header{
 .gallery{
     background: #f2f2f2;
 }
+
 .contenedor-galeria{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
 .imagen-galeria{
     object-fit: contain;
     width: 500px;
