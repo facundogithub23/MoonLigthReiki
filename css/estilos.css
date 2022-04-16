@@ -29,7 +29,7 @@ header{
     background-position: center;
 }
 
-p{
+p {
     align-items: center;
 }
 
@@ -76,7 +76,7 @@ p{
     transform: translate(0);
 }
 
-.menu-navegacion a{
+.menu-navegacion a {
     color: #fff;
     text-decoration: none;
 }
@@ -193,6 +193,17 @@ p{
     cursor: pointer;
 }
 
+  /*********************** CURSOS**********/
+.cont-courses img {
+    border-radius: 50%;
+    height: 310px; 
+    width: 310px;
+    display: block;
+}
+.cont-courses h3 {
+    text-align: center;
+}
+/*********************** CURSOS**********/
 .experts{
     display:flex;
     justify-content: space-evenly;
